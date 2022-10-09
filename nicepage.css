@@ -5759,11 +5759,7 @@ ul.u-text li:last-child {
   margin-right: 0 !important;
   margin-bottom: 0px;
 }
-.u-backlink {
-  position: relative;
-  text-align: center;
-  padding: 1em;
-}
+
 .u-backlink a:first-letter {
   text-transform: capitalize;
 }
@@ -5781,6 +5777,13 @@ ul.u-text li:last-child {
 .u-backlink .u-link:hover {
   text-decoration: none;
 }
+.u-backlink {
+  position: relative;
+  text-align: center;
+  padding: 1em;
+  display: none;
+}
+
 .u-hidden {
   display: none !important;
 }
